@@ -88,7 +88,7 @@ html {
 
 h1 {
     font-size: 35px;
-    padding: 30px;
+    padding: 30px 0px;
 }
 
 p {
@@ -103,6 +103,8 @@ p {
     background-color: rgb(27, 25, 25);
     color: white;
 }
+
+/* MAIN PART  */
 
 .layout-1 .row,
 .layout-2 .row,
@@ -128,6 +130,23 @@ p {
 .col-20 {
     width: 16%;
 }
+
+/* LAYOUT 1  */
+
+.layout-1 .row {
+    background-color: white;
+    padding: 30px;
+}
+
+/* LAYOUT 2  */
+.layout-2 {
+    background-color: rgb(228, 225, 225);
+}
+
+.layout-2 .col-40 {
+    padding: 40px;
+}
+
 
 .big-element {
     min-height: 1000px;
@@ -186,11 +205,11 @@ p {
     border-style: dotted;
 }
 
-.layout-1, .layout-3.debug {
+.layout-1.debug, .layout-3.debug {
     background-color: white;
 }
 
-.layout-2, .layout-4.debug {
+.layout-2.debug, .layout-4.debug {
     background-color: grey;
 }
 
