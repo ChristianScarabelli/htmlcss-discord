@@ -19,6 +19,10 @@ img {
     max-width: 100%;
 }
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 /* LAYOUT */
 
 .container {
@@ -27,10 +31,16 @@ img {
     margin: 0 auto;
 }
 
+/* HEADER  */
+
 .hd-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-header {
+    background-color: rgb(64, 87, 236);
 }
 
 .main-header .container {
@@ -39,8 +49,24 @@ img {
 
 .hd-navbar > .features {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
+    color: white;
+}
+
+.button {
+    padding: 12px 25px;
+    border-radius: 999px;
+}
+
+.button.header-cta {
+    background-color: white;
+    color: rgb(64, 87, 236);
+}
+
+.main-section {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
 }
 
 .main-element {
