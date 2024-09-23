@@ -1,0 +1,192 @@
+/* RESET RULES  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hd-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .container {
+    padding: 10px 30px;
+}
+
+.hd-navbar > .features {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-element {
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.layout-1 .row,
+.layout-2 .row,
+.layout-3 .row,
+.layout-5 .row  {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-30 {
+    width: 36%;
+}
+
+.col-20 {
+    width: 16%;
+}
+
+.big-element {
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
+.last-layout {
+    padding-top: 10px;
+}
+
+.layout-5 {
+    border-bottom: 1px solid white;
+}
+
+.ft-layout {
+    padding-top: 15px;
+}
+.ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.ft {
+    max-width: 960px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ft-logo, .ft-button {
+    padding: 10px;
+}
+
+/* DEBUG */
+
+.main-header.debug {
+    background-color: aqua;
+}
+
+.container.debug {
+    border: 1px solid black;
+}
+
+.hd-navbar.debug {
+    background-color: orange;
+    border-style: dotted;
+}
+
+.main-section.debug {
+    background-color: blue;
+}
+
+.main-section .container .debug {
+    max-width: 900px;
+    background-color: pink;
+    border-style: dotted;
+}
+
+.layout-1, .layout-3.debug {
+    background-color: white;
+}
+
+.layout-2, .layout-4.debug {
+    background-color: grey;
+}
+
+.layout-5.debug {
+    background-color: rgb(42, 37, 37);
+}
+
+.row *.debug {
+    border-style: dotted;
+}
+
+.col-60.debug {
+    background-color: lightblue;
+}
+
+.col-40.debug {
+    background-color: pink;
+}
+
+.col-30.debug {
+    background-color: rgb(201, 134, 146);
+}
+
+.col-20.debug {
+    background-color: rgb(14, 133, 119);
+}
+
+/* layout 4 */
+.big-element.debug {   
+    background-color: green;
+}
+
+.col-20.debug {
+    border-color: white;
+}
+
+.ft-layout.debug {
+    background-color: rgb(42, 37, 37);
+}
+
+.ft.debug.debug {
+    background-color: beige;
+}
+
+.ft-logo, .ft-button.debug {
+    border-style: dotted;
+    background-color: rgba(255, 0, 0, 0.447);
+}
+
+
+/* debug solo nel contenitore esterno  */
+
+/* footer col33 2/6 width:calc (100% / 3) + col 16 1/6 width:calc(100% / 6)*/
+
+/* bonus bg ondulato  */
