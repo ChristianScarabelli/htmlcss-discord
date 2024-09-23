@@ -77,7 +77,7 @@ html {
 
 .main-element {
     max-width: 900px;
-    min-height: 400px;
+    /* min-height: 400px; */
     margin: 0 auto;
     color: white;
     display: flex;
@@ -110,7 +110,7 @@ p {
 .layout-2 .row,
 .layout-3 .row,
 .layout-5 .row  {
-    min-height: 500px;
+    /* min-height: 500px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -151,7 +151,7 @@ p {
 /* LAYOUT 4  */
 
 .big-element {
-    min-height: 1000px;
+    /* min-height: 1000px; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -164,17 +164,39 @@ p {
 
 .button.dw-last {
     color: white;
-    background-color: rgb(64, 87, 236);
+    background-color: rgb(97, 116, 236);
+}
+
+#last-title {
+    color: black;
 }
 
 /* FOOTER  */
 
-.last-layout {
-    padding-top: 10px;
+.last-layout .row {
+    padding-top: 40px;
 }
 
 .layout-5 {
-    border-bottom: 1px solid white;
+    background-color: rgb(42, 37, 37);
+}
+
+.last-layout hr {
+    border-color: rgb(97, 116, 236);
+}
+
+.last-layout strong, h2 {
+    color: rgb(97, 116, 236);
+    line-height: 40px;
+}
+
+.last-layout p, i {
+    color: white;
+    line-height: 40px;
+}
+
+i {
+    padding-right: 10px;
 }
 
 .ft-layout {
