@@ -143,6 +143,10 @@ p {
     background-color: rgb(228, 225, 225);
 }
 
+.layout-2 .row {
+    padding: 30px;
+}
+
 .layout-2 .col-40 {
     padding: 40px;
 }
