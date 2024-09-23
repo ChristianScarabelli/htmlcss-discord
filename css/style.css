@@ -27,7 +27,6 @@ html {
 
 .container {
     max-width: 1000px;
-    padding: 20px;
     margin: 0 auto;
 }
 
@@ -201,6 +200,7 @@ i {
 
 .ft-layout {
     padding-top: 15px;
+    background-color: rgb(42, 37, 37);
 }
 .ft {
     display: flex;
@@ -209,14 +209,19 @@ i {
 }
 
 .container.ft {
-    max-width: 960px;
-    padding-left: 0px;
-    padding-right: 0px;
+    max-width: 1000px;
 }
 
-.ft-logo, .ft-button {
+.ft-logo, .button.ft {
     padding: 10px;
 }
+
+.button.ft {
+    color: white;
+    background-color: rgb(97, 116, 236);
+    padding: 15px;
+}
+
 
 /* DEBUG */
 
@@ -292,7 +297,7 @@ i {
     background-color: beige;
 }
 
-.ft-logo, .ft-button.debug {
+.ft-logo.debug, .button.ft.debug {
     border-style: dotted;
     background-color: rgba(255, 0, 0, 0.447);
 }
