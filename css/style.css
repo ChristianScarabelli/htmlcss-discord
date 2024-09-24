@@ -58,8 +58,9 @@ html {
     border-radius: 999px;
     font-size: 15px;
     padding: 15px 25px;
-    margin: 20px 10px;
+    margin: 20px 0px;
     border-style: none;
+    display: inline-block;
 }
 
 .button.header-cta {
@@ -67,16 +68,23 @@ html {
     color: rgb(64, 87, 236);
 }
 
+/* il display block toglie quello spazio in più del display inline block  */
+.logo {
+    display: block;
+}
+
 /* UPPER SECTION  */
 
 .main-section {
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-position: center;
 }
 
+/* la min height andrebbe sulla row!!!  */
 .main-element {
     max-width: 900px;
-    /* min-height: 400px; */
+    min-height: 400px;
     margin: 0 auto;
     color: white;
     display: flex;
@@ -84,6 +92,14 @@ html {
     align-items: center;
     text-align: center;
 }
+
+.main-cta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
 
 h1 {
     font-size: 35px;
