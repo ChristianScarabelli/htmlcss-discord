@@ -39,7 +39,11 @@ html {
 }
 
 .main-header {
-    background-color: rgb(64, 87, 236);
+    /* background-color: rgb(64, 87, 236); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .main-header .container {
